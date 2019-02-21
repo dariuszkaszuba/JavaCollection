@@ -13,11 +13,21 @@ public class MainSet {
         System.out.println(pesels);
         System.out.println("Przynaleznosc: "+pesels.contains("1234"));
         System.out.println("Przynaleznosc: "+pesels.contains("1239"));
+        System.out.println("Przynaleznosc: "+pesels.contains("2222"));
         System.out.println(pesels.remove("1234"));
         System.out.println(pesels);
         Set<String> temp=new HashSet<>();
         temp.addAll(pesels);
         temp.addAll(pesels_bydgoszcz);
         System.out.println(temp);
+        Set<String> temp2= new HashSet<>();
+        temp2.addAll(pesels);
+        temp2.removeAll(pesels_bydgoszcz);
+        System.out.println("Pesel odejmowanie: "+pesels_bydgoszcz +"-"+pesels+"="+temp2);
+
+        temp2.clear();
+        temp2.addAll(pesels);
+        temp2.retainAll(pesels_bydgoszcz);
+        System.out.println("Czesc wspolna: "+pesels_bydgoszcz +"*"+pesels+"="+temp2);
     }
 }
