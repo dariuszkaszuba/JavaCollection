@@ -8,5 +8,7 @@ public class MainAuto {
         ac.addAuto("AV3","VW","Tiguan",123000);
         ac.addEquipment("AV1","A");
         ac.getAllAutos();
+        ac.deleteAutoByVin("AV1");
+        ac.getAllAutos();
     }
 }
