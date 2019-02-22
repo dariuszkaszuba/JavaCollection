@@ -1,0 +1,2 @@
+1=[{name=Grudziadz}, {population=95000.0}, {area=59.0}]
+2=[{name=Bydgoszcz}, {population=32000.0}, {area=170.5}]

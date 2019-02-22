@@ -56,7 +56,7 @@ public class Auto {
     @Override
     public String toString() {
 //        System.out.printf("%10s | %10s | %10s  | %10.2f  | %10s", "VIN","Marka","Model","Cena podstawowa","Wyposazenie");
-        return String.format("%10s | %10s | %10s  | %10.2f  | %10s | %15.2f",
+        return String.format("%15s | %10s | %10s  | %10.2f  | %10s | %15.2f",
                 vin_no, brand, model, price_basic, getOrderedEqipmentNames(), calcFullPrice());
     }
 

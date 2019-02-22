@@ -1,0 +1,5 @@
+            VIN |      MARKA |      MODEL  |       CENA  | WYPOSAZENIE |            SUMA 
+            AV2 |         VW |       Golf  |  123000,00  |            |       123000,00
+            AV3 |         VW |     Tiguan  |  123000,00  |            |       123000,00
+ 
+DATA2019-02-22
